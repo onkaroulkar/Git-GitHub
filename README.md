@@ -20,3 +20,7 @@
 <br> Clone- Cloning a repository on our local machine.
 <br> git clone<--some link-->
 <br> status- displays the status of the code.
+<br> cd--->change directory
+<br> clear-->clear the terminal
+<br> ls--> list the files
+<br> ls -a --> shows hidden files.
