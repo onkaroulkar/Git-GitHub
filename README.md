@@ -24,3 +24,17 @@
 <br> clear-->clear the terminal
 <br> ls--> list the files
 <br> ls -a --> shows hidden files.
+<br> git status ---> gives the status of the ,file.
+
+# Git Status
+<br> untracked -> new files that git doesn't yet track.
+<br> modified -> changed.
+<br> staged(add file) -> file is ready to commited.
+<br> unmodified -> unchnaged.
+
+# Add and Commit
+<br>  add -> adds new or changed files in your working directory  to the Git stagging area.
+<br> git add<-file name>
+<br> commit -> It is the record of change.
+<br> git commit -m "some message"
+<br>
