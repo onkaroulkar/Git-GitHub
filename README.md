@@ -5,7 +5,6 @@
 <br> Website that allows developer to store and manage their code using Git.
 <br> https:github.com
 <br> md - Markdown.
-
 <br> Setting up Git-
 <br> Visual studio code
 <br> windows(Git Bash)
@@ -21,6 +20,8 @@
 <br> git clone<--some link-->
 <br> status- displays the status of the code.
 <br> cd--->change directory
+<br> cd.. ---> come out of the directory.
+<br> mkdir "name" ---> make new directory.
 <br> clear-->clear the terminal
 <br> ls--> list the files
 <br> ls -a --> shows hidden files.
@@ -37,4 +38,19 @@
 <br> git add<-file name>
 <br> commit -> It is the record of change.
 <br> git commit -m "some message"
-<br>
+
+# Push Command
+<br> push -> upload local repo content to remote repo
+<br> git push origin main
+
+# Init Command
+<br> init -> used to create a new git repo
+<br> git init 
+<br> git remote add origin <-link->
+<br> git remote -v    (to verify remote)
+<br> git brach        (to check branch) 
+<br> git branch -M    (to rename branch)
+<br> git push origin  main
+<br> git push -u origin main ---> do not need to write origin main again.
+
+
