@@ -22,6 +22,8 @@
 <br> cd--->change directory
 <br> cd.. ---> come out of the directory.
 <br> mkdir "name" ---> make new directory.
+<br> git log --> shows all the log.
+<br> q -> quit. 
 <br> clear-->clear the terminal
 <br> ls--> list the files
 <br> ls -a --> shows hidden files.
@@ -53,4 +55,49 @@
 <br> git push origin  main
 <br> git push -u origin main ---> do not need to write origin main again.
 
+# Work Flow
+<br> Git repository -> clone ->  changes -> add -> commit -> push.
+  
+# Git Branches - Branches created when many developer works on a main branch.
 
+# Branch Commands-
+<br> git brach   (to check branch)
+<br> git branch -M   (to rename branch)
+<br> git checkout <- brach name ->   (to navigate)
+<br> git checkout -b <-new branch name ->  (to create new branch)
+<br> git branch -d <- brach name->  (to delete branch)
+
+# Merging Code
+<br> way 1
+<br> git diff <-branch name ->   (to compare commits,branches,files & more)
+<br> git merge <-branch name ->  (to merge 2 branche)
+
+<br> way 2
+<br> create PR.
+
+# Pull Request
+<br> It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+
+# Pull Command
+<br> git pull origin main
+<br> used to fetch and download content form a remote repo and immediately update the local repo to match that content.
+
+# Resolve Merge Conflicts
+<br> An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+
+# Undoing Changes
+<br> Case1:staged changes.
+<br> git rest <-file name->
+<br> git rest
+
+<br> Case2:commited changes(for one commit)
+<br> git reset HEAD~1
+
+<br> Case3:commited changes(for many commits)
+<br> git reset <-commit hash->
+<br> git reset --hard<-commit hash->
+
+# Fork
+<br> A fork is a new repository that shares code and visibility setting with the original "upstream" repository.
+<br> Fork is a rough copy.
